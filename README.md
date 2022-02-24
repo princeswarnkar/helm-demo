@@ -24,3 +24,9 @@ cd ./nodejs
 cd ./reactjs
 
 ```
+## Images Used
+
+```
+For React app >> princeox/reactjs-heml:latest
+For Node App >> princeox/nodejs-heml:latest
+```
