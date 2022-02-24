@@ -16,7 +16,9 @@ Deploy Node and React application with the help of helm charts in K8s
    Kubectl >> https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
    helm >> https://helm.sh/docs/intro/install/ (If you're installing helm V3, you do not have to install and enable tiller in your cluster).
 ```
+
 5. Please nevigate to respective directries to deploy the react and node application:
+
 ```
 cd /nodejs
 cd /reactjs
