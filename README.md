@@ -37,3 +37,7 @@ cd ./helm-demo/reactjs
 For React app >> princeox/reactjs-heml:latest
 For Node App >> princeox/nodejs-heml:latest
 ```
+
+## Note:
+
+This Task has been configured and tested on Kubernetes version v1.20.0
