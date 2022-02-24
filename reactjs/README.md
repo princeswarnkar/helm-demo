@@ -18,7 +18,7 @@ Serve the app to browser
 docker build -t {IMAGE_NAME}:${IMAGE_TAG} .
 
 
-## Deploy on Kubernetes
+## Deploy on Kubernetes Using Helm charts
 
 Prerequisites:
 
