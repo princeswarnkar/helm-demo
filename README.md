@@ -20,7 +20,7 @@ Deploy Node and React application with the help of helm charts in K8s
 5. Please nevigate to respective directries to deploy the react and node application:
 
 ```
-cd /nodejs
-cd /reactjs
+cd ./nodejs
+cd ./reactjs
 
 ```
