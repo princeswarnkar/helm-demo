@@ -27,7 +27,9 @@ Prerequisites:
 
 Run below commands to deploy the applicaton on K8s using helm
 
+```
 helm install react reactjs-helm/
+```
 
 Note: If you're using Minikube, Please make an entry of your minikube IP in /etc/hosts file as below:
 
