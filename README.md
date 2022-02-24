@@ -7,6 +7,9 @@ Deploy Node and React application with the help of helm charts in K8s
    ```
    https://minikube.sigs.k8s.io/docs/start/
    ```
+   ```
+   $ minikube start --kubernetes-version=1.20.0
+   ```
 2. Once you install and start Minikube cluster, Please enable ingress addons in it. (If you're using any cloudprovider k8s service, make sure ingress controller and tiller is installed.)
 ```
    $ minikube addons enable ingress
