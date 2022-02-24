@@ -37,3 +37,25 @@ For more information about using Node.js on Heroku, see these Dev Center article
 - [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
 - [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
 - [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+
+
+## Docker image build commands
+```
+docker build -t ${IMAGE_NAME}:${IMAGE_TAG} .
+```
+
+## Deploy on Kubernetes
+
+Prerequisites:
+
+- Kubernetes Cluster (MiniKube or any other provider).
+- Helm and Kubectl
+
+Run below commands to deploy the applicaton on K8s using helm
+```
+$ helm install node nodejs-helm/
+```
+Note: If you're using Minikube, Please make an entry of your minikube IP in /etc/hosts file as below:
+```
+(minikube_ip)   nodejs.example.com
+```
