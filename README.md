@@ -17,11 +17,18 @@ Deploy Node and React application with the help of helm charts in K8s
    helm >> https://helm.sh/docs/intro/install/ (If you're installing helm V3, you do not have to install and enable tiller in your cluster).
 ```
 
-5. Please nevigate to respective directries to deploy the react and node application:
+5. Clone this repository
 
 ```
-cd ./nodejs
-cd ./reactjs
+git clone https://github.com/princeswarnkar/helm-demo.git
+
+```
+
+6. Please nevigate to respective directries to deploy the react and node application:
+
+```
+cd ./helm-demo/nodejs
+cd ./helm-demo/reactjs
 
 ```
 ## Images Used
