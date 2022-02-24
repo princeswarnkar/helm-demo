@@ -19,5 +19,5 @@ Note: If you're using Minikube, Please make an entry of your minikube IP in /etc
 ```
 $ kubectl get ingress -o wide  #get the IP of your minikube node
 
-$(minikube_node_ip)   react.example.com
+$(minikube_node_ip)   nodejs.example.com
 ```
