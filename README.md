@@ -12,7 +12,7 @@ Deploy Node and React application with the help of helm charts in K8s
    $ minikube addons enable ingress
 ```
 3. Install the helm and kubectl clients in your system using below documentations:
-4. ```   
+```   
    Kubectl >> https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
    helm >> https://helm.sh/docs/intro/install/ (If you're installing helm V3, you do not have to install and enable tiller in your cluster).
 ```
@@ -22,4 +22,5 @@ Deploy Node and React application with the help of helm charts in K8s
 ```
 cd /nodejs
 cd /reactjs
+
 ```
